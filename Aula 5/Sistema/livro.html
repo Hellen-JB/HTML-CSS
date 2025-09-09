@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro Escolar</title>
+    <link rel="stylesheet" href="/Sistema/style.css">
+</head>
+<body>
+     <div class="container">
+        <h1>🏫 Sistema de Cadastro Escolar</h1>
+        <p>Bem-vindos ao sistema de cadastros da nossa escola virtual!</p>
+
+        <h2>📋 Menu de Cadastro</h2>
+        <a href="/Sistema/aluno.html"><button>👩‍🎓 Cadastrar aluno</button></a>
+        <a href="/Sistema/professor.html"><button>👩‍🏫 Cadastrar Professor</button></a>
+        <a href="/Sistema/curso.html"><button>📃 Cadastrar Curso</button></a>
+        <a href="/Sistema/livro.html"><button>📖 Cadastrar Livro</button></a>
+
+     <div class="formulario">
+        <h2>📖 Cadastro do Livro (Biblioteca)</h2>
+        <form action=""> 
+            <label for="nome">Título do Livro:</label><br>
+            <input type="text"
+        </form>
+
+        <br><br>
+
+        <form action=""> 
+            <label for="autor">Autor:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+        <form action=""> 
+            <label for="publicacao">Ano de Publicação:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+         <form action=""> 
+            <label for="editora">Editora:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+        <label for="genero">Gênero:</label><br>
+         <select name="genero" id="genero">
+          <option value="genero">Selecione o genêro</option><br>
+          <option value="genero">Epopeia</option>
+          <option value="genero">Romance</option>
+          <option value="genero">Novela</option>
+          <option value="genero">Conto</option>
+          <option value="genero">Fábula</option>
+          <option value="genero">Crônica</option>
+          <option value="genero">Ficção Científica</option>
+          <option value="genero">Fantasia</option>
+          <option value="genero">Terror</option>
+          <option value="genero">Suspense</option>
+          <option value="genero">Biografia</option>
+          <option value="genero">Não-Ficção</option>
+          <option value="genero">Autoajuda</option>
+          <option value="genero">Literatura Acadêmica/Científica</option>
+         </select><br><br>
+
+        <form action=""> 
+            <label for="editora">Número de Páginas:</label><br>
+            <input type="text"<br>
+        </form><br>
+        
+        <form> <br>
+        <label for="ch">Condição:</label> <br>
+        <label><input type="radio" name=novo" value="novo">Novo</label><br>
+        <label><input type="radio" name="lido" value="lido">Usado - Bom Estado</label><br>
+        <label><input type="radio" name="usado" value="usado">Usado - Estado Regular</label><br><br>
+
+         <form action=""> 
+            <label for="editora">Localização na Biblioteca:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+        <form action="" method="post">
+         <p>Características:</p>
+        
+          <input type="checkbox" id="ilustrado" name="caracteristicas">
+          <label for="ilustrado">Ilustrado</label><br>
+          <input type="checkbox" id="capa" name="caracteristicas">
+          <label for="capa">Capa Dura</label><br>     
+          <input type="checkbox" id="especial" name="caracteristicas">
+          <label for="especial">Edição Especial</label><br><br>
+
+         <button id="cadastrar" type="summit">Cadastrar Livro</button>
+     <button id="limpar" type="reset">Limpar Dados</button>
+     </div>
+</body>
+</html

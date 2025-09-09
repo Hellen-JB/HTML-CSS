@@ -1,0 +1,18 @@
+body{
+        background-color: blanchedalmond;
+     }
+     h1{
+        font-size: 50px;
+        color: rgb(21, 249, 249);
+        text-align: center;
+     }
+     p{
+        font-size: small;
+        color: rgb(144, 45, 144);
+        text-align: center;
+     }
+      p2{
+        font-size: 100px;
+        color: rgb(10, 10, 10);
+        text-align: center;
+     }

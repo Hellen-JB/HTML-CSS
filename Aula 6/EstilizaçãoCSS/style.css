@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bloco1{
+    border: 3px solid #89865e;
+    background-color: #fafda6;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bloco2{
+    border: 3px solid #8c8888;
+    background-color: #5f5ae0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Bloco3{
+    border: 3px solid #4749ac;
+    background-color: #9cafe6;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bloco4{
+    border: 3px solid #9494af;
+    background-color: #d6e6ef;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}

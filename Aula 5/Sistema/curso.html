@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro Escolar</title>
+    <link rel="stylesheet" href="/Sistema/style.css">
+</head>
+<body>
+     <div class="container">
+        <h1>🏫 Sistema de Cadastro Escolar</h1>
+        <p>Bem-vindos ao sistema de cadastros da nossa escola virtual!</p>
+
+        <h2>📋 Menu de Cadastro</h2>
+        <a href="/Sistema/aluno.html"><button>👩‍🎓 Cadastrar aluno</button></a>
+        <a href="/Sistema/professor.html"><button>👩‍🏫 Cadastrar Professor</button></a>
+        <a href="/Sistema/curso.html"><button>📃 Cadastrar Curso</button></a>
+        <a href="/Sistema/livro.html"><button>📖 Cadastrar Livro</button></a>
+
+     <div class="formulario">
+        <h2>📃 Cadastro de Curso</h2>
+        <form action=""> 
+            <label for="nome">Nome do Curso:</label><br>
+            <input type="text"
+        </form>
+
+        <br><br>
+
+        <form action=""> 
+            <label for="codigo">Código do Curso:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+        <label for="categoria">Categoria:</label><br>
+         <select name="categoria" id="categoria">
+          <option value="categoria">Selecione a categoria</option><br>
+          <option value="categoria">Ciências Exatas</option>
+          <option value="categoria">Ciências Humanas</option>
+          <option value="categoria">Ciências Biológicas</option>
+          <option value="categoria">Linguagens</option>
+          <option value="categoria">Artes</option>
+         </select><br><br>
+
+        <label for="ch">Duração (meses):</label> <br>
+       <input type="number" id="ch" name="duracao" min="1" max="60" style="width: 70px;">
+       <br><br>
+
+        <form> <br>
+        <label for="ch">Modabilidade:</label> <br>
+        <label><input type="radio" name="presencial" value="presencial">Presencial</label><br>
+        <label><input type="radio" name="online" value="online">Online</label><br>
+        <label><input type="radio" name="hibrido" value="hibrido">Híbrido</label><br><br>
+
+        <form action="" method="post">
+         <p>Pré-requisitos:</p>
+        
+          <input type="checkbox" id="ensino" name="requisitos">
+          <label for="ensino">Ensino Médio Completo</label><br>
+          <input type="checkbox" id="curso" name="requisitos">
+          <label for="curso">Curso Vásico</label><br>  
+          <input type="checkbox" id="experiencia" name="requisitos">
+          <label for="experiencia">Experiência Prévia</label><br><br>
+
+        <form action=""> 
+            <label for="observacoes">Descrição do Curso:</label><br>
+            <input type="text"<br> 
+            
+        <form><br><br>
+
+         <button id="cadastrar" type="summit">Cadastrar Curso</button>
+         <button id="limpar" type="reset">Limpar Dados</button>
+     </div>
+</body>
+</html>

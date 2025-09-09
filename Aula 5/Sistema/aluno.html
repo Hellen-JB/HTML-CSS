@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro Escolar</title>
+    <link rel="stylesheet" href="/Sistema/style.css">
+</head>
+<body>
+     <div class="container">
+        <h1>🏫 Sistema de Cadastro Escolar</h1>
+        <p>Bem-vindos ao sistema de cadastros da nossa escola virtual!</p>
+
+        <h2>📋 Menu de Cadastro</h2>
+        <a href="/Sistema/aluno.html"><button>👩‍🎓 Cadastrar aluno</button></a>
+        <a href="/Sistema/professor.html"><button>👩‍🏫 Cadastrar Professor</button></a>
+        <a href="/Sistema/curso.html"><button>📃 Cadastrar Curso</button></a>
+        <a href="/Sistema/livro.html"><button>📖 Cadastrar Livro</button></a>
+
+     <div class="formulario">
+        <h2>👩‍🎓 Cadastrar aluno</h2>
+        <form action=""> 
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text"
+        </form>
+
+        <br><br>
+
+         <form action="" method="post">
+        <label for="nascimento">Data de Nascimento:</label> <br>
+        <input type="date" id="nascimento" name="nascimento"> <br><br>
+        </form>
+
+        <form action=""> 
+            <label for="email">Email:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+        <form action=""> 
+            <label for="telefone">Telefone:</label><br>
+            <input type="text"<br>
+        </form><br>
+
+        <label for="serie">Série/Ano:</label><br>
+         <select name="serie" id="serie">
+          <option value="estado">Selecione a série</option><br>
+          <option value="estado">1º Ano</option>
+          <option value="estado">2º Ano</option>
+          <option value="estado">3º Ano</option>
+          <option value="estado">4º Ano</option>
+          <option value="estado">5º Ano</option>
+          <option value="estado">6º Ano</option>
+          <option value="estado">7º Ano</option>
+          <option value="estado">8º Ano</option>
+          <option value="estado">9º Ano</option>
+          <option value="estado">1º Ano - Ensino Médio</option>
+          <option value="estado">2º Ano - Ensino Médio</option>
+          <option value="estado">3º Ano - Ensino Médio</option><br><br>
+         </select>
+
+        <form action="" method="post"><br><br>
+          <label>Periodo: </label><br>
+          <input type="radio" id="manha" name="periodo">
+          <label for="manha">Manhã</label><br>
+          <input type="radio" id="tarde" name="periodo">
+          <label for="tarde">Tarde</label><br>
+          <input type="radio" id="noite" name="periodo">
+          <label for="noite">Noite</label><br><br>
+        </form>
+
+        <form action="" method="post">
+         <p>Atividades Extras:</p>
+        
+          <input type="checkbox" id="esportes" name="atividades">
+          <label for="esportes">Esportes</label><br>
+          <input type="checkbox" id="musica" name="atividades">
+          <label for="musica">Música</label><br>    
+          <input type="checkbox" id="teatro" name="atividades"">
+          <label for="teatro">Teatro</label><br>  
+          <input type="checkbox" id="informatica" name="atividades">
+          <label for="informatica">Informática</label><br><br>
+
+        <form action=""> 
+            <label for="observacoes">Observações:</label><br>
+            <input type="text"<br> 
+        </form><br>
+
+         <button id="cadastrar" type="summit">Cadastrar Aluno</button>
+     <button id="limpar" type="reset">Limpar Dados</button>
+     </div>
+</body>
+</html>
