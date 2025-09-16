@@ -1,0 +1,460 @@
+.Lista_de_compras {
+    margin: 10px;
+    border: solid;
+}
+
+.Lista_de_compras th {
+    background-color: magenta;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(73, 4, 73);
+    padding: 10px;
+}
+
+.Lista_de_compras td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.Cadastro_de_Pessoas {
+    margin: 10px;
+    border: solid;
+}
+
+.Cadastro_de_Pessoas th {
+    background-color: grey;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Cadastro_de_Pessoas td {
+    text-align: center;
+    background-color:rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.Agenda_de_Compromissos {
+    margin: 10px;
+    border: solid;
+}
+
+.Agenda_de_Compromissos th {
+    background-color: violet;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(73, 4, 73);
+    padding: 10px;
+}
+
+.Agenda_de_Compromissos td {
+     text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: blue;
+}
+
+.Catalogo_de_Produtos {
+    margin: 10px;
+    border: solid;
+}
+
+.Catalogo_de_Produtos th {
+    background-color: orange;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(73, 42, 4);
+    padding: 10px;
+}
+
+.Catalogo_de_Produtos td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.Notas_dos_Alunos {
+    margin: 10px;
+    border: solid;
+}
+
+.Notas_dos_Alunos th {
+    background-color: yellow;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(95, 98, 4);
+    padding: 10px;
+}
+
+.Notas_dos_Alunos td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.Cardápio_da_Semana {
+    margin: 10px;
+    border: solid;
+}
+
+.Cardápio_da_Semana th {
+    background-color: green;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(2, 51, 23);
+    padding: 10px;
+}
+
+.Cardápio_da_Semana td {
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.Horario_das_Aulas {
+    margin: 10px;
+    border: solid;
+}
+
+.Horario_das_Aulas th {
+    background-color: blue;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(3, 0, 47);
+    padding: 10px;
+}
+
+.Horario_das_Aulas td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.Resultados_do_Campeonato {
+    margin: 10px;
+    border: solid, 5px black;
+}
+
+.Resultados_do_Campeonato th {
+    background-color: #e6e7e9;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    padding: 10px;
+}
+
+.Resultados_do_Campeonato td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.Precos_de_Mercado {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Precos_de_Mercado th {
+    background-color: #bebfc1;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: red;
+    padding: 10px;
+}
+
+.Precos_de_Mercado td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.Lista_de_Filmes {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Lista_de_Filmes th {
+    background-color: #838586;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    padding: 10px;
+}
+
+.Lista_de_Filmes td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.Frutas_Preferidas {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Frutas_Preferidas th {
+    background-color: #4b4b4d;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.Frutas_Preferidas th:nth-child(1) {
+    font-style: italic;
+}
+
+.Frutas_Preferidas td:nth-child(1) {
+    font-style: italic;
+}
+.Frutas_Preferidas td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.Tabuada {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Tabuada th {
+    background-color: #363435;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+}
+
+.Tabuada td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.Materias_Escolares {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Materias_Escolares th {
+    background-color: #282828;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+}
+
+.Materias_Escolares td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.Materias_Escolares tr:nth-child(2) td {
+    background-color:grey;
+}
+
+.Lista_de_Funcionarios {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Lista_de_Funcionarios th {
+    background-color: #ecebe7;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:rgb(71, 71, 71);
+    padding: 10px;
+}
+
+.Lista_de_Funcionarios td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: green;
+    padding: 10px;
+}
+
+.Restaurante {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Restaurante th {
+    background-color: #d4cfcc;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color:rgb(71, 71, 71);
+    padding: 10px;
+}
+
+.Restaurante td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.Calendario_Simplificado {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Calendario_Simplificado th {
+    background-color: #ada6a4;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:rgb(71, 71, 71);
+    padding: 10px;
+}
+
+.Calendario_Simplificado td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.Boletim_Escolar {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Boletim_Escolar th {
+    background-color: #8b827f;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.Boletim_Escolar td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.Paises_Capitais {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Paises_Capitais th {
+    background-color: #79706c;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.Paises_Capitais td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.Catalogo_Livros {
+    margin: 10px;
+    border: solid, black;
+}
+
+.Catalogo_Livros th {
+    background-color: #34302e;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.Catalogo_Livros td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.Tabela_Final {
+    margin: 10px;
+    border: solid, #bf7840;
+}
+
+.Tabela_Final th {
+    background-color: #bf7840;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.Tabela_Final td {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
