@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8efe2;
+    text-align: center;
+    margin: 40px;
+}
+
+h1 {
+    color: #f0e0b3;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    color: #a79170;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #e1a334;
+    background-color: #fffee7;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #fff9b0;
+}
+
+.tabela1 {
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px #fff210;
+}
+
+.tabela1 th, .tabela1 td {
+    padding: 15px;
+    border: 1px solid #f3c52c;
+    text-align: center;
+}
+
+.tabela1 th {
+    background-color: #dc965a;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabela1 tr:nth-child(even) {
+    background-color: #ebd6ab;
+}
+
+.tabela1 tr:hover {
+    background-color: #d1ae6c;
+}
+
+.tabela1 tr:nth-child(5) td {
+    background-color: #f6874f;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabela1 tr:last-child th {
+    background-color: #f9aa55;
+    color: white;
+    font-weight: bold;
+}
