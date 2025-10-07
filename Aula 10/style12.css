@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nav, .final, .container-secao {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navegacao {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.logo-destaque {
+    color: #3498db;
+}
+
+.contato {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.hero-section {
+    background-color: #3498db;
+    color: #fff;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 15px;
+}
+
+.hero-texto {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-texto h2 {
+    font-size: 3.5em;
+    margin-bottom: 5px;
+}
+
+.cargo {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.btn-principal {
+    background-color: #fff;
+    color: #3498db;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.secao {
+    padding: 60px 0;
+    overflow: auto;
+}
+
+.secao-escura {
+    background-color: #f4f4f4;
+}
+
+.titulo-secao {
+    font-size: 2em;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contato-lateral {
+    float: right;
+    width: 250px;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-aside {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.nota {
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+.projetos-grid, .habilidades-lista ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.projeto-item {
+    background-color: #fff;
+    padding: 20px;
+    flex-basis: 30%;
+    border-left: 5px solid #3498db;
+}
+
+.rodape-geral {
+    background-color: #222;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.rodape-geral a {
+    color: #3498db;
+    margin: 0 10px;
+}

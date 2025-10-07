@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nav, .final, .container-blog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navegacao {
+    background-color:black;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 1.5em;
+    color: #f1f1f1;
+}
+
+.logo-destaque {
+    color: #ff9800;
+}
+
+.contato {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.conteudo-principal {
+    padding: 40px 0;
+}
+
+.container-blog {
+    display: flex;
+    gap: 30px;
+}
+
+.posts {
+    flex: 3;
+}
+
+.barra-lateral {
+    flex: 1;
+}
+
+.titulo-pagina {
+    font-size: 2em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    color: black;
+    
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-post {
+    font-size: 1.4em;
+    color: #ff9800;
+}
+
+.secao-conteudo {
+    color: black;
+}
+
+.data-post {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.rodape-post {
+    border-top: 1px dashed #eee;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.titulo-aside {
+    color: #ff9800;
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.lista-populares {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-populares li {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.rodape-geral {
+    background-color: #222;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.rodape-geral a {
+    color: #ff9800;
+}

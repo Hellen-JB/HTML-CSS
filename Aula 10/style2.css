@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(176, 208, 232);
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.benefits-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.content-area {
+    flex-grow: 1;
+}
+
+.content-area h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.content-area h2 {
+    font-size: 2.2em;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+
+article {
+    background-color: rgb(211, 228, 241);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e1e7ff;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    transition: box-shadow 0.3s;
+    
+}
+
+article:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+article .icon {
+    font-size: 2em;
+    color: #2c97de;
+    margin-right: 15px;
+    line-height: 1;
+    padding-top: 5px;
+}
+
+article h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-size: 0.95em;
+    color: #666;
+    margin-top: 5px;
+}

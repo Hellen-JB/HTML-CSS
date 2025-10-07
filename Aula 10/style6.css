@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #1a1a1a;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nav, .final, .container-figuras {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navegacao {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 2em;
+    color: #ffb400;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.contato {
+    background-color: #ffb400;
+    color: #1a1a1a;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.principal {
+    padding: 40px 0;
+    min-height: 60vh;
+}
+
+.titulo1 {
+    font-size: 2.5em;
+    color: #ffb400;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-figuras {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.figura {
+    flex: 1;
+    margin: 0;
+    background-color: #222;
+    border: 1px solid #333;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.figura img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.legenda {
+    padding: 15px;
+    background-color: #222;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9em;
+    text-align: center;
+    border-top: 3px solid #ffb400;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.5);
+}

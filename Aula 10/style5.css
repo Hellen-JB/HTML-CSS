@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nav, .final {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navegacao {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 1.5em;
+    color: #d9534f;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.principal {
+    background-color: #fff;
+    padding: 40px 0;
+    min-height: 60vh;
+}
+
+.secao-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: auto;
+}
+
+.titulo1 {
+    font-size: 2em;
+    color: #d9534f;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.curiosidades {
+    float: right;
+    width: 300px;
+    padding: 15px;
+    margin-left: 25px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-left: 5px solid #d9534f; 
+    color: #333;
+}
+
+.lateral {
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.curiosidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.curiosidades li {
+    padding: 3px 0;
+    border-bottom: 1px dotted #ccc;
+    font-size: 0.95em;
+}
+
+.principal, .secundario {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #fff;
+}

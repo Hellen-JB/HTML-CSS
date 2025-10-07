@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.caixa, .capa, .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cabecalho {
+    background-color: #5a4ffc;
+    position: relative;
+    overflow: hidden;
+}
+
+.cabecalho1 {
+    background-color: #3d34a8;
+    color: #f4f4f4;
+    padding: 10px 0;
+    font-size: 0.85em;
+    position: relative;
+    z-index: 10;
+}
+
+.cabecalho1 .caixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info span {
+    margin-right: 20px;
+}
+
+.info i {
+    margin-right: 5px;
+    color: #f7d540;
+}
+nav {
+    padding: 15px 0;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+nav .capa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.logo .free-tag {
+    background-color: #f7d540;
+    color: #3d34a8;
+    font-size: 0.5em;
+    padding: 2px 5px;
+    border-radius: 3px;
+    vertical-align: super;
+    margin-left: 5px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    font-weight: 600;
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.inicio {
+    padding: 100px 0 120px 0;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.inicio .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo {
+    max-width: 50%;
+}
+
+.titulo h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.titulo h2 {
+    font-size: 4em;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.titulo .highlight {
+    color: #f7d540;
+}
+
+.titulo .underline-white {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #fff;
+    margin: 15px 0 20px 0;
+}
+
+.titulo p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.scroll-down {
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.principal {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.sobre {
+    padding: 40px 0;
+}
+
+.sobre .caixa1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobre .texto {
+    flex: 1;
+}
+
+.sobre .texto h3 {
+    color: #3d34a8;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.sobre .texto h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.sobre .texto p {
+    color: #666;
+    font-size: 1.05em;
+    line-height: 1.8;
+}
+
+.main-content section:last-of-type {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.main-content section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.main-content section ul li {
+    background-color: #f7d540;
+    color: #3d34a8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #3d34a8;
+    color: #bdc3c7;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.fim p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #f7d540;
+}

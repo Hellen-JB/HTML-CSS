@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nav, .final, .secao-faq {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navegacao {
+    background-color: #252b41;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.nav h1 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.logo-destaque {
+    color: #00a3ad;
+}
+
+.nav li a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contato {
+    background-color: #00a3ad;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.conteudo-principal {
+    padding: 40px 0;
+}
+
+.titulo-pagina {
+    font-size: 2em;
+    color: #252b41;
+    margin-bottom: 30px;
+}
+
+.faq-container {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.item-faq {
+    border-bottom: 1px solid #eee;
+    padding: 0;
+    margin: 0;
+}
+
+.item-faq:last-child {
+    border-bottom: none;
+}
+
+.pergunta {
+    display: block;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #252b41;
+    background-color: #fcfcfc;
+}
+
+.resposta {
+    padding: 15px 25px;
+    background-color: #f9f9f9;
+    color: #555;
+    font-size: 0.95em;
+    border-top: 2px solid #00a3ad;
+    margin-bottom: 5px;
+}
+
+.rodape-geral {
+    background-color: #252b41;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 0.9em;
+    text-align: center;
+}
