@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellen | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="intro-content">
+            <h1>Hellen</h1>
+            <h2>Futura Engenheira de Computação | Estudante em Análise de Desenvolvimento de Sistemas</h2>
+        </div>
+    </header>
+
+    <main class="main-container">
+        
+        <aside class="sidebar-info">
+            
+            <img src="imagens/perfil.jpeg" alt="Foto de Perfil" class="sidebar-photo">
+
+            <section id="habilidades" class="skills">
+                <h3>HABILIDADES E COMPETÊNCIAS</h3>
+                
+                <div class="skill-group">
+                    <h4>DISCIPLINAS</h4>
+                    <ul>
+                        <li>Engenharia de Requisitos</li>
+                        <li>Modelagem de Dados (SQL)</li>
+                        <li>Arquitetura de Sistemas</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-group">
+                    <h4>FERRAMENTAS E LINGUAGENS</h4>
+                    <ul>
+                        <li>HTML / CSS</li>
+                        <li>Virtual Studio Code</li>
+                        <li>Figma</li>
+                        <li>SQL</li>
+                        <li>JavaScript (Básico)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Pontos Fortes</h4>
+                    <ul>
+                        <li>Trabalho em Equipe</li>
+                        <li>Comunicação Profissional</li>
+                        <li>Foco em Solução</li>
+                        <li>Aprendizado Rápido</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="formacao" class="education">
+                <h3>FORMAÇÃO ACADÊMICA</h3>
+
+
+                
+                <article class="course-item">
+                      <h4>Ensino Fundamental Completo</h4>
+                    <p>Plataforma/Instituição: SESI</p>
+                    <br>
+                      <h4>Ensino Médio em Desenvolvimento</h4>
+                    <p>Plataforma/Instituição: SESI</p>
+                    <p class="data">Será concluída em 2026</p>
+                    <br>
+                    <h4>Curso em Desenvolvimento: Análise de Desenvolvimento de Sistemas</h4>
+                    <p>Plataforma/Instituição: SENAI</p>
+                    <p class="data">Será concluída em 2026</p>
+                    <br>                 
+                    <h4>Participação em Feira de Inovação e Conectividade</h4>
+                    <p>Futurecom 2025</p>
+                    <p class="data">Foco nos ecossistemas de conectividade e a realidade digital da sociedade.</p>
+                </article>
+            </section>
+
+            <section id="contato" class="contact-sidebar">
+                <h3>CONTATOS</h3>
+                <p>Email: hellen.bezzerra@gmail.com</p>
+                <p>LinkedIn: /in/hellenlinkedin</p>
+                <p>GitHub: /Hellen-JB</p>
+            </section>
+        </aside>
+
+        <div class="projects-content">
+            
+            <section id="projetos" class="projects">
+                <h2>PROJETOS DE ARQUITETURA E SOFTWARE</h2>
+
+                <article class="sobremim">
+                    <h3>Sobre Mim</h3>
+                    <p class="pitch-intro">
+                Olá! Meu nome é Hellen, tenho 16 anos, sou estudante em Análise de Desenvolvimento de Sistemas no SENAI, e meu interesse na Engenharia da Computação é impulsionado por projetar sistemas eficientes e na capacidade de resolver problemas complexos de forma algorítmica. Minha experiência inicial em Desenvolvimento Web foi no curso para dominar a disciplina de codificação, o planejamento no (Figma) e a modelagem de dados (SQL).
+            </p>
+                </article>
+                <br>                
+                <article class="project-card">
+                    <h3>1. E-commerce AURORA</h3>
+                    <img src="imagens/inicio.png" alt="Design do E-commerce Aurora" class="project-image">
+                    <p>
+                        Conceber o AURORA no Figma foi uma jornada incrível, pois cada tela revela um novo padrão de navegação a ser capturado e otimizado. Este projeto focou na Engenharia pelo Prototype e na Arquitetura de Interface.
+                    </p>
+                </article>
+
+                <article class="project-card sql-model">
+                    <h3>2. Modelagem de Dados SQL (O Core do Sistema)</h3>
+                    <div class="sql-code-container">
+                        <p>SQL E CRIAÇÃO DE DADOS</p>
+                        <pre><code>
+CREATE TABLE produtos (
+  id_produto INT PRIMARY KEY,
+  nome_produto VARCHAR(255),
+  preco DECIMAL(10,2),
+  estoque INT,
+  variacoes INT
+);
+
+INSERT INTO produtos (id_produto, nome_produto, preco, estoque, variacoes) VALUES
+(1, 'Vestido Estilo Dandeau', 129.00, 401, 2),
+(2, 'Bolsa de Ombro Guess', 800.00, 822, 1),
+(3, 'Óculos SL Laurent', 355.00, 803, 2),
+(4, 'Boiná de Couro Dior', 189.99, 394, 1);
+                        </code></pre>
+                    </div>
+                  <p>
+                        Este código prova minha habilidade em Modelagem de Dados Relacionais. A definição da PRIMARY KEY (id_produto) e dos tipos de dados garante a integridade e a performance do sistema.
+                    </p>
+                </article>
+            </section>
+            
+            <section id="experiencias" class="experience">
+                <h2>EXPERIÊNCIAS E PROJETOS ACADÊMICOS</h2>
+                
+                <article class="job-item">
+                    <h4>Projeto Aurora</h4>
+                    <p class="company">Curso SENAI</p>
+                    <p class="data">De 08/25 a 09/25</p>
+                    <ul>
+                        <li>Criação de toda a Arquitetura de Interface do e-commerce, com foco na usabilidade e nos fluxos de compra, foi a definição completa dos Requisitos de Sistema antes de escrever qualquer utilização do prototype, garantindo a integridade estrutural e otimizando o tempo de desenvolvimento.</li>
+                    </ul>
+                </article>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Hellen | &copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
